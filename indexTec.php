@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -47,7 +45,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="indexAdmin.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Panel de control</span></a>
             </li>
@@ -72,8 +70,8 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Opciones:</h6>
-                        <a class="collapse-item" href="buttons.php">Agendar cita</a>
-                        <a class="collapse-item" href="cards.php">Cancelar cita</a>
+                        <a class="collapse-item" href="buttons.php">Mis citas</a>
+                        <a class="collapse-item" href="cards.php">Imprimir citas</a>
                     </div>
                 </div>
             </li>
@@ -83,13 +81,13 @@
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                     aria-expanded="true" aria-controls="collapseUtilities">
                     <i class="fas fa-fw fa-wrench"></i>
-                    <span>Productos</span>
+                    <span>Gestionar</span>
                 </a>
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Opciones:</h6>
-                        <a class="collapse-item" href="utilities-color.html">Registrar productos</a>
+                        <a class="collapse-item" href="utilities-color.html">Gestionar citas</a>
                     </div>
                 </div>
             </li>
@@ -105,7 +103,7 @@
             <!-- Sidebar Message -->
             <div class="sidebar-card d-none d-lg-flex">
                 <img class="sidebar-card-illustration mb-2" src="img\Log out.png" alt="...">
-                <p class="text-center mb-2">En <strong>CTEC</strong> estamos para servirte siempre!</p>
+                <p class="text-center mb-2">Gracias por trabajar en <strong>CTEC</strong> es un gusto tenerte en nuestro equipo!</p>
                 <a class="btn btn-success btn-sm" href="login.php">Cerrar cesion</a>
             </div>
 
@@ -166,14 +164,13 @@
                                 </form>
                             </div>
                         </li>
-
                         <div class="topbar-divider d-none d-sm-block"></div>
 
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Carlos Sosa</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"> Tec. Carlos Sosa</span>
                                 <img class="img-profile rounded-circle"
                                     src="img/undraw_profile.svg">
                             </a>
@@ -187,7 +184,7 @@
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Cerrar sesión
+                                    Cerrar sesion
                                 </a>
                             </div>
                         </li>
@@ -215,8 +212,8 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                Citas proximas</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">Diciembre 22</div>
+                                                Imprimir citas</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">4 citas</div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-calendar fa-2x text-gray-300"></i>
@@ -233,40 +230,11 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                                Ultimo pago</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">$350.00</div>
+                                                Gestionar citas</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">4 hoy</div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-info shadow h-100 py-2">
-                                <div class="card-body">
-                                    <div class="row no-gutters align-items-center">
-                                        <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Proximo mantenimiento
-                                            </div>
-                                            <div class="row no-gutters align-items-center">
-                                                <div class="col-auto">
-                                                    <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">2 meses</div>
-                                                </div>
-                                                <div class="col">
-                                                    <div class="progress progress-sm mr-2">
-                                                        <div class="progress-bar bg-info" role="progressbar"
-                                                            style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-                                                            aria-valuemax="100"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-auto">
-                                            <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -282,8 +250,7 @@
                                     <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;"
                                         src="img/undraw_posting_photo.svg" alt="...">
                                 </div>
-                                <p><b>CTEC</b> es el mejo sitio para poder darle mantenimiento a tus equipos y reparar los que ya estan descompuestos,
-                                contamos con servicio a domicilio por lo que lo unico que tendra que hacer es agendar citas y esperar a uno de nuestros técnicos lo visite!</p>
+                                <p>En <b>CTEC</b> estamos comprometidos con nuestros cleintes y nuestros trabajadores para brindar ayuda y el mejor servicio manteniendote a gusto en tu trabajo!</p>
                             </div>
                         </div>
 
